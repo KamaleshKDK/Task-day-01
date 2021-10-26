@@ -1,0 +1,51 @@
+Objects and its internal representation in Javascrip.
+
+Answer:
+
+1.In JavaScript,objects are king.If you understand objects,you understand JavaScript.
+2.It forms the building blocks for modern JavaScript. 
+3.-A primitive value is a value that has no properties or methods.
+  -A primitive data type is data that has a primitive value.
+  -JavaScript defines 5 types of primitive data types:
+    string,number,boolean,null,undefined
+4.JavaScript variables can also contain many values.
+   -Objects are variables too. But objects can contain many values.
+   -Object values are written as name : value pairs (name and value separated by a colon).
+5.Eg.,
+      
+   let car ={ name:"BMW",
+              model:"x1",
+              color:black",
+              year:2021};
+
+6.Creating Objects in Javascript:
+
+-Create JavaScript Object with Object Literal,
+ eg:let bike = {name: 'SuperSport', maker:'Ducati', engine:'937cc'};
+
+-Create JavaScript Object with Constructor,
+eg:function Vehicle(name, maker) {
+        this.name = name;
+        this.maker = maker; }
+     let car1 = new Vehicle(’Fiesta’, 'Ford’);
+     let car2 = new Vehicle(’Santa Fe’, 'Hyundai’)
+     console.log(car1.name);    //Output: Fiesta
+     console.log(car2.name);    //Output: Santa Fe'
+
+-Using the JavaScript Keyword new,
+eg:var person = new Object();
+person.firstName = “John”;
+person.lastName = “Doe”;
+person.age = 50;
+person.eyeColor = “blue”; 
+
+-Using the Object.create method,
+eg:var Animal = {
+  type: 'Invertebrates', 
+  displayType: function() {  
+    console.log(this.type); }
+
+
+
+              
+             
