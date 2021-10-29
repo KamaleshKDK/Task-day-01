@@ -1,4 +1,4 @@
-Objects and its internal representation in Javascrip.
+Write a blog about objects and its internal representation in Javascript?
 
 Answer:
 
@@ -20,29 +20,29 @@ Answer:
 
 6.Creating Objects in Javascript:
 
--Create JavaScript Object with Object Literal,
- eg:let bike = {name: 'SuperSport', maker:'Ducati', engine:'937cc'};
+a.Create JavaScript Object with Object Literal,
+    eg:let bike = {name: 'SuperSport', maker:'Ducati', engine:'937cc'};
 
--Create JavaScript Object with Constructor,
-eg:function Vehicle(name, maker) {
-        this.name = name;
-        this.maker = maker; }
-     let car1 = new Vehicle(’Fiesta’, 'Ford’);
-     let car2 = new Vehicle(’Santa Fe’, 'Hyundai’)
-     console.log(car1.name);    //Output: Fiesta
-     console.log(car2.name);    //Output: Santa Fe'
+b.Create JavaScript Object with Constructor,
+    eg:function Vehicle(name, maker) {
+       this.name = name;
+       this.maker = maker; }
+       let car1 = new Vehicle(â€™Fiestaâ€™, 'Fordâ€™);
+       let car2 = new Vehicle(â€™Santa Feâ€™, 'Hyundaiâ€™)
+       console.log(car1.name);    //Output: Fiesta
+       console.log(car2.name);    //Output: Santa Fe'
 
--Using the JavaScript Keyword new,
-eg:var person = new Object();
-person.firstName = “John”;
-person.lastName = “Doe”;
-person.age = 50;
-person.eyeColor = “blue”; 
+c.Using the JavaScript Keyword new,
+     eg:var person = new Object();
+     person.firstName = â€œJohnâ€;
+     person.lastName = â€œDoeâ€;
+     person.age = 50;
+     person.eyeColor = â€œblueâ€; 
 
--Using the Object.create method,
-eg:var Animal = {
-  type: 'Invertebrates', 
-  displayType: function() {  
+d.Using the Object.create method,
+    eg:var Animal = {
+    type: 'Invertebrates', 
+    displayType: function() {  
     console.log(this.type); }
 
 
